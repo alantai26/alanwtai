@@ -6,7 +6,7 @@ import { experience } from "./experience";
 export default function Home() {
 
   return (
-    <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-50 pr-50">
+    <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-50 pr-50 pb-10">
       //Headshot and Introduction
       <div className="flex gap-6 items-start">
         <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-24 h-34 flex-shrink-0 rounded-full" />
