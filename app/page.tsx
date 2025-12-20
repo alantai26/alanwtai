@@ -9,7 +9,7 @@ export default function Home() {
     <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-4 sm:pl-10 md:pl-50 pr-4 sm:pr-10 md:pr-50 pb-20">
       //Headshot and Introduction
       <div className="flex flex-col gap-6 items-start w-full">
-        <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-30 sm:w-30 h-35 sm:h-35 flex-shrink-0 rounded-full" />
+        <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-25 sm:w-25 h-35 sm:h-35 flex-shrink-0 rounded-full" />
         <div className="w-full">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">Hi, my name is Alan!</h1>
           <p className="text-gray-300 text-base leading-relaxed mt-4">
