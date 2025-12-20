@@ -1,7 +1,7 @@
 export const tech = [
   { name: "React", image: "/react.svg.png" },
   { name: "Node", image: "/nodejsStackedLight.svg" },
-  { name: "Next", image: "/Next.jpg" },
+  { name: "Next", image: "/next.jpg" },
   { name: "Vite", image: "/vite.png" },
   { name: "Tailwind CSS", image: "/tailwind.svg.png" },
   { name: "MySQL", image: "/MySQL.png" },
@@ -11,9 +11,9 @@ export const tech = [
   { name: "PostgreSQL", image: "/PostgresSQL.png" },
   { name: "Jupyter", image: "/Jupyter.png" },
   { name: "Docker", image: "/Docker.png" },
-  { name: "NumPy", image: "/numpy.png" },
-  { name: "Pandas", image: "/pandas.png" },
+  { name: "NumPy", image: "/NumPy.png" },
+  { name: "Pandas", image: "/Pandas.png" },
   { name: "SKlearn", image: "/scikit-learn.png" },
-  { name: "Matplotlib", image: "/matplotlib.png" },
-  { name: "Linux", image: "/linux.png" },
+  { name: "Matplotlib", image: "/Matplotlib.png" },
+  { name: "Linux", image: "/Linux.png" },
 ];
