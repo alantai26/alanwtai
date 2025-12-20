@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-50 pr-50">
       //Headshot and Introduction
-      <div className="flex gap-8 items-start">
+      <div className="flex gap-6 items-start">
         <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-24 h-34 flex-shrink-0 rounded-full" />
         <div>
           <h1 className="text-white text-4xl font-bold">Hi, my name is Alan!</h1>
@@ -17,6 +17,19 @@ export default function Home() {
             I recently was presented with the amazing opportunity to become a Software Engineering Co-op at NExT Consulting.
             What I will be doing here is building internal tools to help streamline operations and improve efficiency for companies such as Verizon and State Street.
           </p>
+
+          <h1 className="text-white text-1xl font-bold mt-6">Connect with me here:</h1>
+          <div className="flex gap-6 mt-2">
+            <a href="https://github.com/alantai26" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition">
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/alantaineu" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white transition">
+              LinkedIn
+            </a>
+            <a href="mailto:talan4030@gmail.com" className="text-gray-300 hover:text-white transition">
+              Email
+            </a>
+          </div>
         </div>
       </div>
 
@@ -77,7 +90,7 @@ export default function Home() {
       <div className="flex flex-col gap-8 mt-8 w-full">
         {experience.map((exp) => (
           <div key={exp.id} className="border border-gray-700 rounded-lg p-6">
-            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 w-32 h-32 object-cover" />}
+            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 w-30 h-30 object-cover" />}
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="text-white text-lg font-semibold">{exp.title}</h3>
