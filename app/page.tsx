@@ -6,12 +6,12 @@ import { experience } from "./experience";
 export default function Home() {
 
   return (
-    <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-50 pr-50 pb-10">
+    <div className="w-full overflow-y-auto bg-black flex flex-col items-start justify-start pt-10 pl-4 sm:pl-10 md:pl-50 pr-4 sm:pr-10 md:pr-50 pb-20">
       //Headshot and Introduction
-      <div className="flex gap-6 items-start">
-        <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-24 h-34 flex-shrink-0 rounded-full" />
-        <div>
-          <h1 className="text-white text-4xl font-bold">Hi, my name is Alan!</h1>
+      <div className="flex flex-col gap-6 items-start w-full">
+        <img src="/ALAN-TAI-HEADSHOT-1.png" alt="Alan Tai" className="w-30 sm:w-30 h-35 sm:h-35 flex-shrink-0 rounded-full" />
+        <div className="w-full">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">Hi, my name is Alan!</h1>
           <p className="text-gray-300 text-base leading-relaxed mt-4">
             I am a second year student at Northeastern University studying Computer Science with a minor in Economics!
             I recently was presented with the amazing opportunity to become a Software Engineering Co-op at NExT Consulting.
@@ -90,7 +90,7 @@ export default function Home() {
       <div className="flex flex-col gap-8 mt-8 w-full">
         {experience.map((exp) => (
           <div key={exp.id} className="border border-gray-700 rounded-lg p-6">
-            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 w-30 h-30 object-cover" />}
+            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 h-30 w-30 object-cover" />}
             <div className="flex justify-between items-start">
               <div>
                 <h3 className="text-white text-lg font-semibold">{exp.title}</h3>
