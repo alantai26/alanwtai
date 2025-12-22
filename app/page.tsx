@@ -13,9 +13,10 @@ export default function Home() {
         <div className="w-full">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">Hi, my name is Alan!</h1>
           <p className="text-gray-300 text-base leading-relaxed mt-4">
-            I am a second year student at Northeastern University studying Computer Science with a minor in Economics!
-            I recently was presented with the amazing opportunity to become a Software Engineering Co-op at NExT Consulting.
+            I am a second year student at <strong>Northeastern University</strong> studying Computer Science with a minor in Economics!
+            I recently was presented with the amazing opportunity to become a <strong>Software Engineering Co-op</strong> at NExT Consulting.
             What I will be doing here is building internal tools to help streamline operations and improve efficiency for companies such as Verizon and State Street.
+            Currently, I am looking for a <strong>Summer 2026 Internships!</strong>
           </p>
 
           <h1 className="text-white text-1xl font-bold mt-6">Connect with me here:</h1>

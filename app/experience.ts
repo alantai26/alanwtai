@@ -16,7 +16,7 @@ export const experience = [
     image: "/firstbyte.jpeg",
     achievements: [
       "Developed a secure student management tool using React, Prisma, and Supabase to centralize program operations and attendance tracking for community-focused coding workshops.",
-      "Engineered the database layer by designing relational schemas in Prisma to manage complex student-mentor data, optimizing query performance and ensuring data consistency."
+      "Engineered the database layer by designing relational schemas in Prisma to manage complex student data, optimizing query performance and ensuring data consistency."
     ]
   },
   {
