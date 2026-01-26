@@ -1,11 +1,16 @@
 export const experience = [
     {
     id: 1,
-    title: "Incoming Software Engineer Co-op",
+    title: "Software Engineer Co-op",
     company: "NExT Consulting",
     date: "January 2026 – Present",
     location: "Boston, MA",
-    image: "/nextconsulting.png"
+    image: "/nextconsulting.png",
+    achievements: ["Collaborated directly with clients to define project requirements, translating business needs into feasible goals.",
+      "Developed full-stack features using a modern tech stack including React, TypeScript, Python (FastAPI), and PostgreSQL, delivering scalable solutions within an Agile/Scrum framework.",
+      "Managed end-to-end development lifecycles by leading sprint planning sessions, executing Linear tickets, and delivering professional progress presentations to stakeholders to ensure alignment and quality."
+
+    ]
   },
   {
     id: 2,
