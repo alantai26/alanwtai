@@ -3,12 +3,12 @@ export const experience = [
     id: 1,
     title: "Software Engineer Co-op",
     company: "NExT Consulting",
-    date: "January 2026 – Present",
+    date: "January 2026 – May 2026",
     location: "Boston, MA",
     image: "/nextconsulting.png",
-    achievements: ["Collaborated directly with clients to define project requirements, translating business needs into feasible goals.",
-      "Developed full-stack features using a modern tech stack including React, TypeScript, Python (FastAPI), and PostgreSQL, delivering scalable solutions within an Agile/Scrum framework.",
-      "Managed end-to-end development lifecycles by leading sprint planning sessions, executing Linear tickets, and delivering professional progress presentations to stakeholders to ensure alignment and quality."
+    achievements: ["Facilitated weekly stakeholder meetings for Via Separations, translating complex technical milestones into actionable business impact to ensure alignment on project goals and deliverables.",
+      "Engineered a centralized system to replace scattered workflows, reducing product check-in times from 3 hours to 40 minutes (77\% efficiency gain) and enabling expedited and scalable data operations.",
+      "Coordinated a 5-engineer Agile team as Scrum Master, managing sprints and design workflows to ensure all full-stack deliverables in React/FastAPI met client business requirements."
 
     ]
   },

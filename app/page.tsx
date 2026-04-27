@@ -13,10 +13,12 @@ export default function Home() {
         <div className="w-full">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold">Hi, my name is Alan!</h1>
           <p className="text-gray-300 text-base leading-relaxed mt-4">
-            I am a second year student at <strong>Northeastern University</strong> studying Computer Science with a minor in Economics!
-            I recently started as <strong>Software Engineering Co-op</strong> at NExT Consulting.
-            What I will be doing here is building internal tools to help streamline operations and improve efficiency for companies such as Verizon and State Street.
-            Currently, I am looking for a <strong>Summer 2026 Internships!</strong>
+            I am an incoming third year student at <strong>Northeastern University</strong> studying Computer Science with a minor in Economics!
+            I recently finished a <strong>Software Engineering Co-op</strong> at NExT Consulting.
+            What I did was develop a Warehouse Management System for Via Separations. We heavily increased their operational efficiency by expediting their inventory management, order processing, and traceability of products, 
+            which you can read more about in my experiences below!
+            I thorougly enjoyed the consulting part of my co-op, and am looking forward to applying what I learned in future roles.
+            Currently, I am looking for a <strong>Spring 2027 Co-ops and Summer 2027 Internships!</strong>
           </p>
 
           <h1 className="text-white text-1xl font-bold mt-6">Connect with me here:</h1>
@@ -56,6 +58,32 @@ export default function Home() {
         ))}
       </div>
 
+      //Experience Section
+      <h1 className="text-white text-2xl font-bold mt-16">Experience</h1>
+      <div className="flex flex-col gap-8 mt-8 w-full">
+        {experience.map((exp) => (
+          <div key={exp.id} className="border border-gray-700 rounded-lg p-6">
+            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 h-30 w-30 object-cover" />}
+            <div className="flex justify-between items-start">
+              <div>
+                <h3 className="text-white text-lg font-semibold">{exp.title}</h3>
+                <p className="text-gray-400">{exp.company}</p>
+              </div>
+              <div className="text-right">
+                <p className="text-gray-400 text-sm">{exp.date}</p>
+                <p className="text-gray-500 text-sm">{exp.location}</p>
+              </div>
+            </div>
+            <ul className="mt-4 ml-4 space-y-2">
+              {exp.achievements?.map((achievement, idx) => (
+                <li key={idx} className="text-gray-300 text-sm list-disc">
+                  {achievement}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
 
       //Projects Section
       <h1 className="text-white text-2xl font-bold mt-16">Projects</h1>
@@ -81,34 +109,6 @@ export default function Home() {
                 View Project
               </a>
             )}
-          </div>
-        ))}
-      </div>
-
-
-      //Experience Section
-      <h1 className="text-white text-2xl font-bold mt-16">Experience</h1>
-      <div className="flex flex-col gap-8 mt-8 w-full">
-        {experience.map((exp) => (
-          <div key={exp.id} className="border border-gray-700 rounded-lg p-6">
-            {exp.image && <img src={exp.image} alt={exp.company} className="rounded-lg mb-4 h-30 w-30 object-cover" />}
-            <div className="flex justify-between items-start">
-              <div>
-                <h3 className="text-white text-lg font-semibold">{exp.title}</h3>
-                <p className="text-gray-400">{exp.company}</p>
-              </div>
-              <div className="text-right">
-                <p className="text-gray-400 text-sm">{exp.date}</p>
-                <p className="text-gray-500 text-sm">{exp.location}</p>
-              </div>
-            </div>
-            <ul className="mt-4 ml-4 space-y-2">
-              {exp.achievements?.map((achievement, idx) => (
-                <li key={idx} className="text-gray-300 text-sm list-disc">
-                  {achievement}
-                </li>
-              ))}
-            </ul>
           </div>
         ))}
       </div>
