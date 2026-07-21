@@ -8,7 +8,7 @@ export const tech = [
   { name: "MySQL", image: "/MySQL.png" },
   { name: "Docker", image: "/Docker.png" },
   { name: "PostgreSQL", image: "/PostgresSQL.png" },
-  { name: "Figma", image: "/Figma.webp" },
+  { name: "Figma", image: "/figma.webp" },
   { name: "AWS", image: "/aws.webp" },
   { name: "FastAPI", image: "/fastapi.webp" },
   { name: "Claude", image: "/claude.webp" },
