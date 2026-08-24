@@ -6,9 +6,10 @@ export const experience = [
     date: "January 2026 – May 2026",
     location: "Boston, MA",
     image: "/nextconsulting.png",
-    achievements: ["Facilitated weekly stakeholder meetings for Via Separations, translating complex technical milestones into actionable business impact to ensure alignment on project goals and deliverables.",
-      "Engineered a centralized system to replace scattered workflows, reducing product check-in times from 3 hours to 40 minutes (77\% efficiency gain) and enabling expedited and scalable data operations.",
-      "Coordinated a 5-engineer Agile team as Scrum Master, managing sprints and design workflows to ensure all full-stack deliverables in React/FastAPI met client business requirements."
+    achievements: ["Developed backend services for a warehouse management system for Via Separations using Python/FastAPI, SQLAlchemy, and PostgreSQL, covering areas including bill of materials, and scannable labels for inventory check-in, cutting product check-in times from 3 hours to 40 minutes 77\% efficiency gain.",
+      "Kept inventory endpoints responsive as the data grew 25x by paginating results and sorting server-side.",
+      "Led sprint planning and retrospectives as Scrum Master for a 5-engineer team, cutting scope creep and keeping React/FastAPI deliverables aligned to client deadlines, while contributing across the stack in React and Figma.", 
+      "Ran weekly client meetings and presentations to gather requirements and demo progress, translating technical work for non-technical stakeholders."
 
     ]
   },
